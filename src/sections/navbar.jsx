@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import { navLinks } from "../constants";
 
+    /**
+     * Renders the navbar component.
+     * 
+     * It contains a list of navigation links rendered from the `navLinks` constant.
+     * 
+     * @returns {JSX.Element} The navbar component.
+     */
 const Navbar = () => {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +36,7 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto">
                 <div className="flex justify-between items-center py-5 mx-auto c-space">
                     <a href="/" className="text-neutral-400 font-bold text-xl hover:text-white transition-colors">
-                        Akashdeep Kancha
+                        AkashdeepK
                     </a>
 
                     <button
