@@ -4,7 +4,7 @@ import Hero from "./sections/Hero";
 
 const App = () => {
   return (
-    <main className="max-w-7xl mx-auto">
+    <main className="max-w-8xl mx-auto">
       <Navbar />
       <Hero />
     </main>    
