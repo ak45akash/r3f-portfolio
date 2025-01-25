@@ -6,11 +6,13 @@ const HackerRoom = (props) => {
 
   const monitortxt = useTexture('textures/desk/monitor.png');
   const screenTxt = useTexture('textures/desk/screen.png');
+  const logo = useTexture('textures/desk/logo.png');
 
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.screen_screens_0.geometry} material={materials.screens}>
         <meshMatcapMaterial map={screenTxt} />
+        {/* <meshMatcapMaterial map={logo} /> */}
       </mesh>
       <mesh geometry={nodes.screen_glass_glass_0.geometry} material={materials.glass} />
       <mesh geometry={nodes.table_table_mat_0_1.geometry} material={materials.table_mat} />
