@@ -54,9 +54,10 @@ const Contact = () => {
 
     return(
         <section className="c-space my-20">
-            <div className="relative min-h-screen flex items-center justify-center flex-col">
-                <img src="/assets/terminal.png" alt="terminal" className="absolute inset-0 min-h-screen" />
 
+            <div className="relative min-h-screen flex items-center justify-center flex-col">
+            {/* <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 min-h-screen" /> */}
+            <img src="/assets/terminal.png" alt="terminal-bg" className="absolute inset-0 w-full h-full object-contain" />
                 <div className="contact-container">
                     <h3 className="head-text">
                         Let's talk!
