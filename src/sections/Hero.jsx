@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { PerspectiveCamera, Ring } from "@react-three/drei";
 import HackerRoom from "../components/HackerRoom";
-import CanvasLoader from "../components/CavasLoader";
+import CanvasLoader from "../components/CanvasLoader";
 // import { Leva, useControls } from "leva";
 import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants";
